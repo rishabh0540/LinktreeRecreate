@@ -3,7 +3,7 @@ body{
     padding: 0%;
     margin: 0;
     background-image: url('bgimg1.png');
-    background-size: 100% 110%;
+    background-size: 100% 100%;
 }
 
 p{
@@ -63,6 +63,7 @@ p{
 
 .linktree{
     width: 96%;
+    margin: 5% auto 10% auto;
 }
 
 .linktree-btn{
@@ -75,7 +76,7 @@ p{
     color: white;
     margin: 4% auto;
     padding: 5% 2%;
-    font-size: 0.9rem;
+    font-size: 1rem;
 }:hover{
     color: bisque;
     border-color: bisque;
@@ -92,4 +93,62 @@ p{
     font-size: 1.4rem;
 }:hover{
     color: bisque;
+}
+
+@media screen and (min-width:425px) and (max-width:768px){
+    .outer-div{
+        margin: 10% auto;
+    }
+    .profile-pic-div{
+        width: 120px;
+        height: 120px;
+        margin-bottom: 5%;
+    }
+    .profile-pic{
+        width: 116px;
+        height: 116px;
+    }
+    .name p{
+        font-size: 1.3rem;
+    }
+    .intro-text p{
+        font-size: 1.1rem;
+    }
+    .linktree{
+        margin-top: 5%;
+        width: 80%;
+    }
+    .linktree-btn{
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (min-width:769px){
+    .outer-div{
+        margin: 5% auto;
+    }
+    .profile-pic-div{
+        width: 150px;
+        height: 150px;
+        margin-bottom: 4%;
+    }
+    .profile-pic{
+        width: 146px;
+        height: 146px;
+    }
+    .name p{
+        font-size: 1.5rem;
+    }
+    .intro-text p{
+        font-size: 1.2rem;
+    }
+    .linktree{
+        width: 60%;
+        margin: 3% auto 5% auto;
+    }
+    .linktree-btn{
+        margin: 3% auto;
+        font-size: 1.1rem;
+        padding: 4% 2%;
+    }
 }
