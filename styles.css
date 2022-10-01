@@ -2,7 +2,8 @@ body{
     background-color: black;
     padding: 0%;
     margin: 0;
-    background-image: url('bgimg1.png');
+    /* background-image: url('bgimg1.png'); */
+    background-image: url('FinalCover.jpg');
     background-repeat: no-repeat;
     background-size:cover;
 }
@@ -79,8 +80,10 @@ p{
     padding: 5% 2%;
     font-size: 1rem;
 }:hover{
-    color: bisque;
-    border-color: bisque;
+    /* color: bisque;
+    border-color: bisque; */
+    color: #111824;
+    border-color: #111824;
 }
 
 .sm-icons{
@@ -93,7 +96,11 @@ p{
     color: white;
     font-size: 1.4rem;
 }:hover{
-    color: bisque;
+    /* color: bisque; */
+    color: #111824;
+}
+:hover{
+    color: #111824;
 }
 
 @media screen and (min-width:425px) and (max-width:768px){
@@ -153,3 +160,4 @@ p{
         padding: 4% 2%;
     }
 }
+
